@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <link href="./style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Sorteio</h1>
+        </div>
+        <p>
+            Seja bem-vindo a nossa página de sorteio!!! 
+        </p>
+        <h2>O nome sorteado foi:</h2>
+        <h2 id="ps">..........</h2>
+        <main>
+            <p>
+                Informe no campo abaixo nomes de itens (nomes, números, apelidos e etc) um por um, para serem sorteados da maneira correta.
+            </p>
+        </main>
+        <div class="botoes">
+            <input id="text" type="text" placeholder=" Nome do participante...">
+              <br>
+            <button id="add" onclick="bntAdd()">Inserir</button>
+
+            <button id="rmv" onclick="bntRmv()">Zerar</button>
+             <br>
+            <button id="sort" onclick="bntSort()">Sortear</button>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="title-2">
+            <h1>
+                PARTICIPANTES:
+            </h1>
+        </div>
+        <div class="nomes">
+            <ol id="list">
+                <!--Esse espaço irá receber a lista de nomes para o sorteio-->
+            </ol>
+        </div>
+    </div>
+    <footer>
+        <p>Feito por <a href="https://gustabolseiro.github.io/Social-tree/">Gustavo Pinheiro</a> 😎 em 18/01/2022.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

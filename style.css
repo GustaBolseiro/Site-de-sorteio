@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+}
+.container {
+    margin: auto;
+    width: 55%;
+    padding-top: px;
+    text-align: center;
+}
+.container-2 {
+    width: 35%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+    border: solid 4px;
+    border-radius: 15px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+}
+
+p {
+    text-align: justify;
+    font-size: 28px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #495057;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #343a40;
+    text-transform: uppercase;
+}
+
+#ps {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #6a4c93;
+    text-transform: uppercase;
+}
+
+main {
+    margin: auto;
+    width: 75%;
+}
+
+.botoes {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.botoes input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 280px;
+    height: 35px;
+    border-radius: 6px;
+    border: solid 2.2px black;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
+
+.botoes button {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212529;
+}
+
+#add {
+    background-color: #8ac926;
+    border: #5DD24B;
+}
+
+#rmv {
+    background-color: #d7263d;
+    border: #d7263d;
+}
+
+#sort {
+    background-color: #1982c4;
+    border: #1982c4;
+    margin-top: 15px;
+    width: 280px;
+}
+
+.title-2 {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+.nomes ol {
+    width: 100%;
+    margin: auto;
+    list-style-position: inside;
+    color: #495057;
+    list-style-type: none;
+}
+.nomes li {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+        padding-top: px;
+        text-align: center;
+    }
+
+    .title {
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    
+    p {
+        text-align: justify;
+        font-size: 20px;
+        margin-bottom: 0px;
+        text-align: center;
+        color: #495057;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    #ps {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    
+    main {
+        width: 100%;
+    }
+
+    main p {
+        margin-bottom: 0;
+    }
+
+    .botoes input {
+        margin-top: 15px;
+        margin-bottom: 18px;
+        width: 230px;
+        font-size: 23px;
+    }
+
+    .botoes button {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 110px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    #sort {
+        margin-top: 15px;
+        width: 230px;
+    }
+
+    .container-2 {
+        width: 90%;
+        height: 100%;
+        border: solid 3px;
+        margin-bottom: 15px;
+    }
+
+    .nomes ol {
+        width: 100%;
+        margin: auto;
+        list-style-position: inside;
+        color: #495057;
+        list-style-type: none;
+    }
+    .nomes li {
+        font-weight: 100;
+        font-size: 30px;
+    }
+
+    footer p {
+        margin-top: 10px;
+        font-size: 17px;
+    }
+
+}
